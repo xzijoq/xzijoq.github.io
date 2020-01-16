@@ -2,6 +2,31 @@
 <html>
 <body>
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<p id="wow">I'm hosted with GitHub Pages.</p>
+<script>
+	var a=10;
+	var b=12;
+	var c=a+b;
+	
+	document.getElementById("wow").innerHTML=c;
+	var sf={cost:12,
+		density:21
+
+	};
+	var gh={
+		cost:10,
+		density:100
+	};
+	function wow(p1,p2)
+	{
+		var oo=p1.cost+p2.density;
+		return oo;
+
+	}
+	var xes=wow(sf,gh);
+	document.getElementById("wow").innerHTML=xes;
+	
+	
+</script>
 </body>
 </html>
